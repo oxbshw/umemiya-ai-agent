@@ -1,0 +1,37 @@
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.personality-controls, .voice-controls, .conversation-controls {
+    margin: 20px;
+}
+
+.personality-controls label {
+    margin-right: 10px;
+}
+
+.status {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+/*
+Author: Sayed Allam
+*/
